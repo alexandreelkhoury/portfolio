@@ -11,18 +11,18 @@ export default function Home() {
       thumbnail: "/portfolio/images/1.png",
     },
     {
-      title: "Product 2",
-      link: "/product2",
+      title: "NFT",
+      link: "https://github.com/alexandreelkhoury/Solidity-AMM-Oracle-Upgradable/tree/main",
       thumbnail: "/portfolio/images/4.png",
     },
     {
-      title: "Product 3",
-      link: "/product1",
+      title: "NFTunes",
+      link: "https://github.com/alexandreelkhoury/Solidity-AMM-Oracle-Upgradable/tree/main",
       thumbnail: "/portfolio/images/3.png",
     },
     {
-      title: "Product 4",
-      link: "/product2",
+      title: "AMM",
+      link: "https://github.com/alexandreelkhoury/Solidity-AMM-Oracle-Upgradable/tree/main",
       thumbnail: "/portfolio/images/1.png",
     },
     {
@@ -31,13 +31,13 @@ export default function Home() {
       thumbnail: "/portfolio/images/2.png",
     },
     {
-      title: "Product 6",
-      link: "/product2",
+      title: "NFTunes",
+      link: "https://github.com/alexandreelkhoury/Solidity-AMM-Oracle-Upgradable/tree/main",
       thumbnail: "/portfolio/images/3.png",
     },
     {
-      title: "Product 7",
-      link: "/product1",
+      title: "NFT",
+      link: "https://github.com/alexandreelkhoury/Solidity-AMM-Oracle-Upgradable/tree/main",
       thumbnail: "/portfolio/images/4.png",
     },
     {
@@ -46,13 +46,13 @@ export default function Home() {
       thumbnail: "/portfolio/images/2.png",
     },
     {
-      title: "Product 9",
-      link: "/product2",
+      title: "NFTunes",
+      link: "https://github.com/alexandreelkhoury/Solidity-AMM-Oracle-Upgradable/tree/main",
       thumbnail: "/portfolio/images/3.png",
     },
     {
-      title: "Product 10",
-      link: "/product1",
+      title: "NFT",
+      link: "https://github.com/alexandreelkhoury/Solidity-AMM-Oracle-Upgradable/tree/main",
       thumbnail: "/portfolio/images/4.png",
     },
     {
@@ -61,13 +61,13 @@ export default function Home() {
       thumbnail: "/portfolio/images/2.png",
     },
     {
-      title: "Product 12",
-      link: "/product1",
+      title: "NFT",
+      link: "https://github.com/alexandreelkhoury/Solidity-AMM-Oracle-Upgradable/tree/main",
       thumbnail: "/portfolio/images/4.png",
     },
     {
-      title: "Product 13",
-      link: "/product2",
+      title: "AMM",
+      link: "https://github.com/alexandreelkhoury/Solidity-AMM-Oracle-Upgradable/tree/main",
       thumbnail: "/portfolio/images/1.png",
     },
     {
@@ -76,8 +76,8 @@ export default function Home() {
       thumbnail: "/portfolio/images/2.png",
     },
     {
-      title: "Product 15",
-      link: "/product2",
+      title: "NFT",
+      link: "https://github.com/alexandreelkhoury/Solidity-AMM-Oracle-Upgradable/tree/main",
       thumbnail: "/portfolio/images/4.png",
     },
   ];
