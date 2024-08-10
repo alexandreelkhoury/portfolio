@@ -8,77 +8,77 @@ export default function Home() {
     {
       title: "AMM",
       link: "https://github.com/alexandreelkhoury/Solidity-AMM-Oracle-Upgradable/tree/main",
-      thumbnail: "/images/1.png",
+      thumbnail: "/portfolio/images/1.png",
     },
     {
       title: "Product 2",
       link: "/product2",
-      thumbnail: "/images/4.png",
+      thumbnail: "/portfolio/images/4.png",
     },
     {
       title: "Product 3",
       link: "/product1",
-      thumbnail: "/images/3.png",
+      thumbnail: "/portfolio/images/3.png",
     },
     {
       title: "Product 4",
       link: "/product2",
-      thumbnail: "/images/1.png",
+      thumbnail: "/portfolio/images/1.png",
     },
     {
       title: "Product 5",
       link: "/product1",
-      thumbnail: "/images/2.png",
+      thumbnail: "/portfolio/images/2.png",
     },
     {
       title: "Product 6",
       link: "/product2",
-      thumbnail: "/images/3.png",
+      thumbnail: "/portfolio/images/3.png",
     },
     {
       title: "Product 7",
       link: "/product1",
-      thumbnail: "/images/4.png",
+      thumbnail: "/portfolio/images/4.png",
     },
     {
       title: "Product 8",
       link: "/product2",
-      thumbnail: "/images/2.png",
+      thumbnail: "/portfolio/images/2.png",
     },
     {
       title: "Product 9",
       link: "/product2",
-      thumbnail: "/images/3.png",
+      thumbnail: "/portfolio/images/3.png",
     },
     {
       title: "Product 10",
       link: "/product1",
-      thumbnail: "/images/4.png",
+      thumbnail: "/portfolio/images/4.png",
     },
     {
       title: "Product 11",
       link: "/product2",
-      thumbnail: "/images/2.png",
+      thumbnail: "/portfolio/images/2.png",
     },
     {
       title: "Product 12",
       link: "/product1",
-      thumbnail: "/images/4.png",
+      thumbnail: "/portfolio/images/4.png",
     },
     {
       title: "Product 13",
       link: "/product2",
-      thumbnail: "/images/1.png",
+      thumbnail: "/portfolio/images/1.png",
     },
     {
       title: "Product 14",
       link: "/product1",
-      thumbnail: "/images/2.png",
+      thumbnail: "/portfolio/images/2.png",
     },
     {
       title: "Product 15",
       link: "/product2",
-      thumbnail: "/images/4.png",
+      thumbnail: "/portfolio/images/4.png",
     },
   ];
 
@@ -112,7 +112,7 @@ export default function Home() {
                 <div className="flex items-center">
                   <a href="https://metav.rs" target="_blank" rel="noopener noreferrer">
                     <Image
-                      src="/images/logo-metav.rs.jpg"
+                      src="/portfolio/images/logo-metav.rs.jpg"
                       alt="Metav.rs Logo"
                       width={500}
                       height={500}
@@ -142,7 +142,7 @@ export default function Home() {
                 <div className="flex items-center">
                   <a href="https://ambrosia.com" target="_blank" rel="noopener noreferrer">
                     <Image
-                      src="/images/ambrosia-logo.jpeg"
+                      src="/portfolio/images/ambrosia-logo.jpeg"
                       alt="Ambrosia Logo"
                       width={500}
                       height={500}
@@ -168,7 +168,7 @@ export default function Home() {
                 <div className="flex items-center">
                   <a href="https://chain.link/" target="_blank" rel="noopener noreferrer">
                     <Image
-                      src="/images/chainlink-logo.png"
+                      src="/portfolio/images/chainlink-logo.png"
                       alt="CCIP Bootcamp Logo"
                       width={100}
                       height={100}
@@ -186,7 +186,7 @@ export default function Home() {
                 <div className="flex items-center">
                   <a href="https://www.xrpl-commons.org/" target="_blank" rel="noopener noreferrer">
                     <Image
-                      src="/images/XRP-logo.png"
+                      src="/portfolio/images/XRP-logo.png"
                       alt="XRP Ledger Bootcamp Logo"
                       width={500}
                       height={500}
@@ -204,7 +204,7 @@ export default function Home() {
                 <div className="flex items-center">
                   <a href="https://www.esgi.fr/" target="_blank" rel="noopener noreferrer">
                     <Image
-                      src="/images/ESGI-logo.jpeg"
+                      src="/portfolio/images/ESGI-logo.jpeg"
                       alt="ESGI Logo"
                       width={500}
                       height={500}
@@ -222,7 +222,7 @@ export default function Home() {
                 <div className="flex items-center">
                   <a href="https://www.alyra.fr/formations/decouvrir-la-formation-developpeur-blockchain-alyra" target="_blank" rel="noopener noreferrer">
                     <Image
-                      src="/images/alyra-logo.png"
+                      src="/portfolio/images/alyra-logo.png"
                       alt="Alyra l'école Blockchain Logo"
                       width={500}
                       height={500}
@@ -240,7 +240,7 @@ export default function Home() {
                 <div className="flex items-center">
                   <a href="https://u-paris.fr/" target="_blank" rel="noopener noreferrer">
                     <Image
-                      src="/images/université-de-paris-logo.png"
+                      src="/portfolio/images/université-de-paris-logo.png"
                       alt="Université Paris Descartes Logo"
                       width={500}
                       height={500}
@@ -306,7 +306,7 @@ export default function Home() {
               data-twe-ripple-color="light">
               <span className="mx-auto [&>svg]:h-5 [&>svg]:w-5">
                 <Image
-                  src="/images/email.svg" // Replace with your actual image filename
+                  src="/portfolio/images/email.svg" // Replace with your actual image filename
                   alt="Email"
                   width={500}
                   height={500}
@@ -322,7 +322,7 @@ export default function Home() {
               data-twe-ripple-init
               data-twe-ripple-color="light">
               <Image
-                src="/images/whatsapp.png"
+                src="/portfolio/images/whatsapp.png"
                 alt="Whatsapp"
                 width={500}
                 height={500}
