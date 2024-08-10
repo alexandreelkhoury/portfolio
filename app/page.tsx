@@ -1,7 +1,6 @@
-import OrbitingCircles from '../components/demos/motion/demo-orbiting-circles';
 import IconCloud from '../components/demos/motion/demo-icon-cloud';
-import Globe from '../components/demos/motion/demo-globe';
 import { HeroParallax } from '../components/ui/hero-parallax';
+import Image from 'next/image'
 
 export default function Home() {
 
@@ -91,7 +90,7 @@ export default function Home() {
             href="/files/cv.pdf"
             download="cv"
           >
-            
+
             <button className="download-cv-button">Download CV</button>
           </a>
         </div>
@@ -112,9 +111,11 @@ export default function Home() {
               <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
                 <div className="flex items-center">
                   <a href="https://metav.rs" target="_blank" rel="noopener noreferrer">
-                    <img
+                    <Image
                       src="/images/logo-metav.rs.jpg"
                       alt="Metav.rs Logo"
+                      width={500}
+                      height={500}
                       className="h-12 w-12 mr-4"
                     />
                   </a>
@@ -140,9 +141,11 @@ export default function Home() {
               <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
                 <div className="flex items-center">
                   <a href="https://ambrosia.com" target="_blank" rel="noopener noreferrer">
-                    <img
+                    <Image
                       src="/images/ambrosia-logo.jpeg"
                       alt="Ambrosia Logo"
+                      width={500}
+                      height={500}
                       className="h-12 w-12 mr-4"
                     />
                   </a>
@@ -164,9 +167,11 @@ export default function Home() {
               <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
                 <div className="flex items-center">
                   <a href="https://chain.link/" target="_blank" rel="noopener noreferrer">
-                    <img
+                    <Image
                       src="/images/chainlink-logo.png"
                       alt="CCIP Bootcamp Logo"
+                      width={100}
+                      height={100}
                       className="h-8 w-8 mr-4"
                     />
                   </a>
@@ -180,9 +185,11 @@ export default function Home() {
               <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
                 <div className="flex items-center">
                   <a href="https://www.xrpl-commons.org/" target="_blank" rel="noopener noreferrer">
-                    <img
+                    <Image
                       src="/images/XRP-logo.png"
                       alt="XRP Ledger Bootcamp Logo"
+                      width={500}
+                      height={500}
                       className="h-7 w-9 mr-4"
                     />
                   </a>
@@ -196,9 +203,11 @@ export default function Home() {
               <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
                 <div className="flex items-center">
                   <a href="https://www.esgi.fr/" target="_blank" rel="noopener noreferrer">
-                    <img
+                    <Image
                       src="/images/ESGI-logo.jpeg"
                       alt="ESGI Logo"
+                      width={500}
+                      height={500}
                       className="h-8 w-8 mr-4"
                     />
                   </a>
@@ -212,9 +221,11 @@ export default function Home() {
               <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
                 <div className="flex items-center">
                   <a href="https://www.alyra.fr/formations/decouvrir-la-formation-developpeur-blockchain-alyra" target="_blank" rel="noopener noreferrer">
-                    <img
+                    <Image
                       src="/images/alyra-logo.png"
                       alt="Alyra l'école Blockchain Logo"
+                      width={500}
+                      height={500}
                       className="h-8 w-8 mr-4"
                     />
                   </a>
@@ -228,9 +239,11 @@ export default function Home() {
               <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
                 <div className="flex items-center">
                   <a href="https://u-paris.fr/" target="_blank" rel="noopener noreferrer">
-                    <img
+                    <Image
                       src="/images/université-de-paris-logo.png"
                       alt="Université Paris Descartes Logo"
+                      width={500}
+                      height={500}
                       className="h-8 w-8 mr-4"
                     />
                   </a>
@@ -292,9 +305,11 @@ export default function Home() {
               data-twe-ripple-init
               data-twe-ripple-color="light">
               <span className="mx-auto [&>svg]:h-5 [&>svg]:w-5">
-                <img
+                <Image
                   src="/images/email.svg" // Replace with your actual image filename
                   alt="Email"
+                  width={500}
+                  height={500}
                   className="h-5 w-5"
                 />
               </span>
@@ -306,9 +321,11 @@ export default function Home() {
               target="_blank"
               data-twe-ripple-init
               data-twe-ripple-color="light">
-              <img
+              <Image
                 src="/images/whatsapp.png"
                 alt="Whatsapp"
+                width={500}
+                height={500}
                 className="h-10 w-10"
               />
             </a>
