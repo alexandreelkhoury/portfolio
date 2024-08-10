@@ -223,14 +223,14 @@ export default function Home() {
                   <a href="https://www.alyra.fr/formations/decouvrir-la-formation-developpeur-blockchain-alyra" target="_blank" rel="noopener noreferrer">
                     <Image
                       src="/images/alyra-logo.png"
-                      alt="Alyra l&apos;école Blockchain Logo"
+                      alt="Alyra l'école Blockchain Logo"
                       width={500}
                       height={500}
                       className="h-8 w-8 mr-4"
                     />
                   </a>
                   <div>
-                    <p className="text-xl font-semibold text-gray-800">3 Months Blockchain Crash Course, Alyra l'école Blockchain</p>
+                    <p className="text-xl font-semibold text-gray-800">3 Months Blockchain Crash Course, Alyra l&apos;école Blockchain</p>
                     <p className="text-lg italic text-gray-600">2022</p>
                   </div>
                 </div>
