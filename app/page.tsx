@@ -87,8 +87,8 @@ export default function Home() {
       <main className="flex min-h-screen flex-col items-center justify-between">
         <div className="place-self-end pr-20 py-5">
           <a
-            href="/portfolio/files/cv.pdf"
-            download="cv"
+            href="/files/CV.pdf"
+            download="CV_Alexandre_Khoury"
           >
 
             <button className="download-cv-button">Download CV</button>
