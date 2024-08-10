@@ -87,7 +87,7 @@ export default function Home() {
       <main className="flex min-h-screen flex-col items-center justify-between">
         <div className="place-self-end pr-20 py-5">
           <a
-            href="/files/cv.pdf"
+            href="/portfolio/files/cv.pdf"
             download="cv"
           >
 
