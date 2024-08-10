@@ -223,7 +223,7 @@ export default function Home() {
                   <a href="https://www.alyra.fr/formations/decouvrir-la-formation-developpeur-blockchain-alyra" target="_blank" rel="noopener noreferrer">
                     <Image
                       src="/images/alyra-logo.png"
-                      alt="Alyra l'école Blockchain Logo"
+                      alt="Alyra l&apos;école Blockchain Logo"
                       width={500}
                       height={500}
                       className="h-8 w-8 mr-4"
