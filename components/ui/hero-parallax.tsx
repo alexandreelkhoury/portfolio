@@ -105,11 +105,11 @@ export const Header = () => {
   return (
     <div className="max-w-7xl relative mx-auto py-20 md:py-40 px-4 w-full  left-0 top-0">
       <h1 className="text-2xl md:text-7xl font-bold dark:text-white">
-        Alexandre El-Khoury 
+        Alexandre El-Khoury
       </h1>
       <p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200">
-        Passionate and dedicated <strong> blockchain developer </strong> with over 3 years of experience in developing decentralized applications across multiple blockchains. 
-        Possesses a deep understanding of blockchain technology and its ecosystem.
+        Passionate and dedicated <strong>full stack developer</strong> with over 3 years of experience in creating both traditional web applications and <strong>decentralized applications</strong> across multiple blockchains.
+        With a solid background in conventional web development technologies and a deep understanding of the blockchain ecosystem, I am well-equipped to build modern, secure, and scalable applications in both domains.
       </p>
     </div>
   );
