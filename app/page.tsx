@@ -127,13 +127,13 @@ export default function Home() {
                 <div className="mt-4 pl-14">
                   <ul className="list-disc list-inside text-gray-700">
                     <li>Operated and maintained an Ethereum RPC Node using Geth.</li>
-                    <li>Led the development of Chainalyze, a project designed to fetch data from the RPC Node and store it in a PSQL database.</li>
+                    <li>Led the development of Chainalyze, a project designed to perform blockchain analytics using the RPC node.</li>
+                    <li>Developed smart contracts in Solidity implementing best practices to enhance security and efficiency.</li>
                     <li>Integrated smart contracts on the frontend of a minting page.</li>
-                    <li>Developed smart contracts in Solidity.</li>
+                    <li>Maintained and updated a RESTful API and PostgreSQL database.</li>
                     <li>Created API documentation in Clojure.</li>
-                    <li>Maintained and updated the API and database.</li>
+                    <li>Conducted thorough code reviews.</li>
                     <li>Performed unit testing.</li>
-                    <li>Conducted thorough code reviews and implemented best practices to enhance security and efficiency.</li>
                   </ul>
                 </div>
               </div>

@@ -109,7 +109,7 @@ export const Header = () => {
       </h1>
       <p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200">
         Passionate and dedicated <strong> blockchain developer </strong> with over 3 years of experience in developing decentralized applications across multiple blockchains. 
-        Possess a deep understanding of blockchain technology and its ecosystem.
+        Possesses a deep understanding of blockchain technology and its ecosystem.
       </p>
     </div>
   );
