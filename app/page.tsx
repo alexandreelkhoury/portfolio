@@ -11,13 +11,13 @@ export default function Home() {
       thumbnail: "/portfolio/images/1.png",
     },
     {
-      title: "NFT",
+      title: "NFT Whitelist Minting Page",
       link: "https://github.com/alexandreelkhoury/Solidity-AMM-Oracle-Upgradable/tree/main",
       thumbnail: "/portfolio/images/4.png",
     },
     {
       title: "NFTunes",
-      link: "https://github.com/alexandreelkhoury/Solidity-AMM-Oracle-Upgradable/tree/main",
+      link: "https://nftunes-summer.surge.sh/",
       thumbnail: "/portfolio/images/3.png",
     },
     {
@@ -27,43 +27,18 @@ export default function Home() {
     },
     {
       title: "Betting DAPP",
-      link: "/product1",
+      link: "https://github.com/alexandreelkhoury/Solidity-AMM-Oracle-Upgradable/tree/main",
       thumbnail: "/portfolio/images/2.png",
     },
     {
       title: "NFTunes",
-      link: "https://github.com/alexandreelkhoury/Solidity-AMM-Oracle-Upgradable/tree/main",
+      link: "https://nftunes-summer.surge.sh/",
       thumbnail: "/portfolio/images/3.png",
     },
     {
-      title: "NFT",
-      link: "https://github.com/alexandreelkhoury/Solidity-AMM-Oracle-Upgradable/tree/main",
-      thumbnail: "/portfolio/images/4.png",
-    },
-    {
       title: "Betting DAPP",
-      link: "/product2",
+      link: "https://github.com/alexandreelkhoury/Solidity-AMM-Oracle-Upgradable/tree/main",
       thumbnail: "/portfolio/images/2.png",
-    },
-    {
-      title: "NFTunes",
-      link: "https://github.com/alexandreelkhoury/Solidity-AMM-Oracle-Upgradable/tree/main",
-      thumbnail: "/portfolio/images/3.png",
-    },
-    {
-      title: "NFT",
-      link: "https://github.com/alexandreelkhoury/Solidity-AMM-Oracle-Upgradable/tree/main",
-      thumbnail: "/portfolio/images/4.png",
-    },
-    {
-      title: "Betting DAPP",
-      link: "/product2",
-      thumbnail: "/portfolio/images/2.png",
-    },
-    {
-      title: "NFT",
-      link: "https://github.com/alexandreelkhoury/Solidity-AMM-Oracle-Upgradable/tree/main",
-      thumbnail: "/portfolio/images/4.png",
     },
     {
       title: "AMM",
@@ -71,14 +46,39 @@ export default function Home() {
       thumbnail: "/portfolio/images/1.png",
     },
     {
+      title: "NFTunes",
+      link: "https://nftunes-summer.surge.sh/",
+      thumbnail: "/portfolio/images/3.png",
+    },
+    {
+      title: "NFT Whitelist Minting Page",
+      link: "https://github.com/alexandreelkhoury/Solidity-AMM-Oracle-Upgradable/tree/main",
+      thumbnail: "/portfolio/images/4.png",
+    },
+    {
       title: "Betting DAPP",
-      link: "/product1",
+      link: "https://github.com/alexandreelkhoury/Solidity-AMM-Oracle-Upgradable/tree/main",
       thumbnail: "/portfolio/images/2.png",
     },
     {
-      title: "NFT",
+      title: "NFT Whitelist Minting Page",
       link: "https://github.com/alexandreelkhoury/Solidity-AMM-Oracle-Upgradable/tree/main",
       thumbnail: "/portfolio/images/4.png",
+    },
+    {
+      title: "NFTunes",
+      link: "https://nftunes-summer.surge.sh/",
+      thumbnail: "/portfolio/images/3.png",
+    },
+    {
+      title: "Betting DAPP",
+      link: "https://github.com/alexandreelkhoury/Solidity-AMM-Oracle-Upgradable/tree/main",
+      thumbnail: "/portfolio/images/2.png",
+    },
+    {
+      title: "AMM",
+      link: "https://github.com/alexandreelkhoury/Solidity-AMM-Oracle-Upgradable/tree/main",
+      thumbnail: "/portfolio/images/1.png",
     },
   ];
 
@@ -126,11 +126,11 @@ export default function Home() {
                 </div>
                 <div className="mt-4 pl-14">
                   <ul className="list-disc list-inside text-gray-700">
-                    <li>Operated and maintained an Ethereum RPC Node using Geth.</li>
+                    <li>Operated and maintained an Ethereum RPC Node.</li>
                     <li>Led the development of Chainalyze, a project designed to perform blockchain analytics using the RPC node.</li>
                     <li>Developed smart contracts in Solidity implementing best practices to enhance security and efficiency.</li>
-                    <li>Integrated smart contracts on the frontend of a minting page.</li>
-                    <li>Maintained and updated a RESTful API and PostgreSQL database.</li>
+                    <li>Integrated smart contracts on the front/</li>
+                    <li>Maintained and optimized backend services.</li>
                     <li>Created API documentation in Clojure.</li>
                     <li>Conducted thorough code reviews.</li>
                     <li>Performed unit testing.</li>
@@ -158,7 +158,7 @@ export default function Home() {
                   <ul className="list-disc list-inside text-gray-700">
                     <li>Developed scripts to retrieve data from EVM chains.</li>
                     <li>Automated funds transfer from clients to DeFi protocols.</li>
-                    <li>Maintained and improved the API using NestJS and MongoDB.</li>
+                    <li>Maintained and optimized backend services.</li>
                     <li>Created a TS script to combat money laundering (AML/CFT).</li>
                   </ul>
                 </div>
