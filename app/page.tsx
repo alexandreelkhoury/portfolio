@@ -129,7 +129,7 @@ export default function Home() {
                     <li>Operated and maintained an Ethereum RPC Node.</li>
                     <li>Led the development of Chainalyze, a project designed to perform blockchain analytics using the RPC node.</li>
                     <li>Developed smart contracts in Solidity implementing best practices to enhance security and efficiency.</li>
-                    <li>Integrated smart contracts on the front/</li>
+                    <li>Integrated smart contracts on the front</li>
                     <li>Maintained and optimized backend services.</li>
                     <li>Created API documentation in Clojure.</li>
                     <li>Conducted thorough code reviews.</li>
