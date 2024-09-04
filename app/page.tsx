@@ -26,7 +26,7 @@ export default function Home() {
       thumbnail: "/portfolio/images/1.png",
     },
     {
-      title: "Product 5",
+      title: "Betting DAPP",
       link: "/product1",
       thumbnail: "/portfolio/images/2.png",
     },
@@ -41,7 +41,7 @@ export default function Home() {
       thumbnail: "/portfolio/images/4.png",
     },
     {
-      title: "Product 8",
+      title: "Betting DAPP",
       link: "/product2",
       thumbnail: "/portfolio/images/2.png",
     },
@@ -56,7 +56,7 @@ export default function Home() {
       thumbnail: "/portfolio/images/4.png",
     },
     {
-      title: "Product 11",
+      title: "Betting DAPP",
       link: "/product2",
       thumbnail: "/portfolio/images/2.png",
     },
@@ -71,7 +71,7 @@ export default function Home() {
       thumbnail: "/portfolio/images/1.png",
     },
     {
-      title: "Product 14",
+      title: "Betting DAPP",
       link: "/product1",
       thumbnail: "/portfolio/images/2.png",
     },
