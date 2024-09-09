@@ -1,3 +1,4 @@
+'use client'
 import IconCloud from '../components/demos/motion/demo-icon-cloud';
 import { HeroParallax } from '../components/ui/hero-parallax';
 import Image from 'next/image'
@@ -41,9 +42,9 @@ export default function Home() {
       thumbnail: "/portfolio/images/2.png",
     },
     {
-      title: "AMM",
+      title: "NFT Whitelist Minting Page",
       link: "https://github.com/alexandreelkhoury/Solidity-AMM-Oracle-Upgradable/tree/main",
-      thumbnail: "/portfolio/images/1.png",
+      thumbnail: "/portfolio/images/4.png",
     },
     {
       title: "NFTunes",
@@ -51,9 +52,9 @@ export default function Home() {
       thumbnail: "/portfolio/images/3.png",
     },
     {
-      title: "NFT Whitelist Minting Page",
+      title: "AMM",
       link: "https://github.com/alexandreelkhoury/Solidity-AMM-Oracle-Upgradable/tree/main",
-      thumbnail: "/portfolio/images/4.png",
+      thumbnail: "/portfolio/images/1.png",
     },
     {
       title: "Betting DAPP",
@@ -81,18 +82,30 @@ export default function Home() {
       thumbnail: "/portfolio/images/1.png",
     },
   ];
+  
+  const handleDownload = async () => {
+    try {
+      const response = await fetch('https://olive-encouraging-gecko-886.mypinata.cloud/ipfs/QmTDw1mAWXWD9eLDXU7mLdswmepqScNj9pKHaDa5d4V7Q4?pinataGatewayToken=pWlwZletu2n2A8YlLeubjgrpC5zmwasURKNz3LaS-cKBhrBHYFSi2mMiZBoeha0j');
+      if (!response.ok) {
+        throw new Error('Network response was not ok.');
+      }
+      const blob = await response.blob();
+      const link = document.createElement('a');
+      link.href = window.URL.createObjectURL(blob);
+      link.download = 'CV_Alexandre_Khoury.pdf';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    } catch (error) {
+      console.error('Download error:', error);
+    }
+  };
 
   return (
     <div>
       <main className="flex min-h-screen flex-col items-center justify-between">
         <div className="place-self-end pr-20 py-5">
-          <a
-            href="/portfolio/files/CV.pdf"
-            download="CV_Alexandre_Khoury"
-          >
-
-            <button className="download-cv-button">Download CV</button>
-          </a>
+           <button className="download-cv-button" onClick={handleDownload}>Download CV</button>
         </div>
 
         <HeroParallax products={products} />
