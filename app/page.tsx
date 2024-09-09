@@ -1,5 +1,8 @@
+
+'use client';
 import IconCloud from '../components/demos/motion/demo-icon-cloud';
 import { HeroParallax } from '../components/ui/hero-parallax';
+// import { Head } from 'next/document'
 import Image from 'next/image'
 
 export default function Home() {
@@ -8,91 +11,105 @@ export default function Home() {
     {
       title: "AMM",
       link: "https://github.com/alexandreelkhoury/Solidity-AMM-Oracle-Upgradable/tree/main",
-      thumbnail: "/portfolio/images/1.png",
+      thumbnail: "/images/1.png",
     },
     {
       title: "NFT",
       link: "https://github.com/alexandreelkhoury/Solidity-AMM-Oracle-Upgradable/tree/main",
-      thumbnail: "/portfolio/images/4.png",
+      thumbnail: "/images/4.png",
     },
     {
       title: "NFTunes",
       link: "https://github.com/alexandreelkhoury/Solidity-AMM-Oracle-Upgradable/tree/main",
-      thumbnail: "/portfolio/images/3.png",
+      thumbnail: "/images/3.png",
     },
     {
       title: "AMM",
       link: "https://github.com/alexandreelkhoury/Solidity-AMM-Oracle-Upgradable/tree/main",
-      thumbnail: "/portfolio/images/1.png",
+      thumbnail: "/images/1.png",
     },
     {
       title: "Product 5",
       link: "/product1",
-      thumbnail: "/portfolio/images/2.png",
+      thumbnail: "/images/2.png",
     },
     {
       title: "NFTunes",
       link: "https://github.com/alexandreelkhoury/Solidity-AMM-Oracle-Upgradable/tree/main",
-      thumbnail: "/portfolio/images/3.png",
+      thumbnail: "/images/3.png",
     },
     {
       title: "NFT",
       link: "https://github.com/alexandreelkhoury/Solidity-AMM-Oracle-Upgradable/tree/main",
-      thumbnail: "/portfolio/images/4.png",
+      thumbnail: "/images/4.png",
     },
     {
       title: "Product 8",
       link: "/product2",
-      thumbnail: "/portfolio/images/2.png",
+      thumbnail: "/images/2.png",
     },
     {
       title: "NFTunes",
       link: "https://github.com/alexandreelkhoury/Solidity-AMM-Oracle-Upgradable/tree/main",
-      thumbnail: "/portfolio/images/3.png",
+      thumbnail: "/images/3.png",
     },
     {
       title: "NFT",
       link: "https://github.com/alexandreelkhoury/Solidity-AMM-Oracle-Upgradable/tree/main",
-      thumbnail: "/portfolio/images/4.png",
+      thumbnail: "/images/4.png",
     },
     {
       title: "Product 11",
       link: "/product2",
-      thumbnail: "/portfolio/images/2.png",
+      thumbnail: "/images/2.png",
     },
     {
       title: "NFT",
       link: "https://github.com/alexandreelkhoury/Solidity-AMM-Oracle-Upgradable/tree/main",
-      thumbnail: "/portfolio/images/4.png",
+      thumbnail: "/images/4.png",
     },
     {
       title: "AMM",
       link: "https://github.com/alexandreelkhoury/Solidity-AMM-Oracle-Upgradable/tree/main",
-      thumbnail: "/portfolio/images/1.png",
+      thumbnail: "/images/1.png",
     },
     {
       title: "Product 14",
       link: "/product1",
-      thumbnail: "/portfolio/images/2.png",
+      thumbnail: "/images/2.png",
     },
     {
       title: "NFT",
       link: "https://github.com/alexandreelkhoury/Solidity-AMM-Oracle-Upgradable/tree/main",
-      thumbnail: "/portfolio/images/4.png",
+      thumbnail: "/images/4.png",
     },
   ];
 
+  const handleDownload = async () => {
+    try {
+      const response = await fetch('https://olive-encouraging-gecko-886.mypinata.cloud/ipfs/QmTDw1mAWXWD9eLDXU7mLdswmepqScNj9pKHaDa5d4V7Q4?pinataGatewayToken=pWlwZletu2n2A8YlLeubjgrpC5zmwasURKNz3LaS-cKBhrBHYFSi2mMiZBoeha0j');
+      if (!response.ok) {
+        throw new Error('Network response was not ok.');
+      }
+      const blob = await response.blob();
+      const link = document.createElement('a');
+      link.href = window.URL.createObjectURL(blob);
+      link.download = 'CV_Alexandre_Khoury.pdf';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    } catch (error) {
+      console.error('Download error:', error);
+    }
+  };
+
   return (
+
     <div>
       <main className="flex min-h-screen flex-col items-center justify-between">
-        <div className="place-self-end pr-20 py-5">
-          <a
-            href="/portfolio/files/CV.pdf"
-            download="CV_Alexandre_Khoury"
-          >
 
-            <button className="download-cv-button">Download CV</button>
-          </a>
+        <div className="place-self-end pr-20 py-5">
+          <button className="download-cv-button" onClick={handleDownload}>Download CV</button>
         </div>
 
         <HeroParallax products={products} />
@@ -112,7 +129,7 @@ export default function Home() {
                 <div className="flex items-center">
                   <a href="https://metav.rs" target="_blank" rel="noopener noreferrer">
                     <Image
-                      src="/portfolio/images/logo-metav.rs.jpg"
+                      src="/images/logo-metav.rs.jpg"
                       alt="Metav.rs Logo"
                       width={500}
                       height={500}
@@ -142,7 +159,7 @@ export default function Home() {
                 <div className="flex items-center">
                   <a href="https://ambrosia.com" target="_blank" rel="noopener noreferrer">
                     <Image
-                      src="/portfolio/images/ambrosia-logo.jpeg"
+                      src="/images/ambrosia-logo.jpeg"
                       alt="Ambrosia Logo"
                       width={500}
                       height={500}
@@ -168,7 +185,7 @@ export default function Home() {
                 <div className="flex items-center">
                   <a href="https://chain.link/" target="_blank" rel="noopener noreferrer">
                     <Image
-                      src="/portfolio/images/chainlink-logo.png"
+                      src="/images/chainlink-logo.png"
                       alt="CCIP Bootcamp Logo"
                       width={100}
                       height={100}
@@ -186,7 +203,7 @@ export default function Home() {
                 <div className="flex items-center">
                   <a href="https://www.xrpl-commons.org/" target="_blank" rel="noopener noreferrer">
                     <Image
-                      src="/portfolio/images/XRP-logo.png"
+                      src="/images/XRP-logo.png"
                       alt="XRP Ledger Bootcamp Logo"
                       width={500}
                       height={500}
@@ -204,7 +221,7 @@ export default function Home() {
                 <div className="flex items-center">
                   <a href="https://www.esgi.fr/" target="_blank" rel="noopener noreferrer">
                     <Image
-                      src="/portfolio/images/ESGI-logo.jpeg"
+                      src="/images/ESGI-logo.jpeg"
                       alt="ESGI Logo"
                       width={500}
                       height={500}
@@ -222,7 +239,7 @@ export default function Home() {
                 <div className="flex items-center">
                   <a href="https://www.alyra.fr/formations/decouvrir-la-formation-developpeur-blockchain-alyra" target="_blank" rel="noopener noreferrer">
                     <Image
-                      src="/portfolio/images/alyra-logo.png"
+                      src="/images/alyra-logo.png"
                       alt="Alyra l'école Blockchain Logo"
                       width={500}
                       height={500}
@@ -240,7 +257,7 @@ export default function Home() {
                 <div className="flex items-center">
                   <a href="https://u-paris.fr/" target="_blank" rel="noopener noreferrer">
                     <Image
-                      src="/portfolio/images/université-de-paris-logo.png"
+                      src="/images/université-de-paris-logo.png"
                       alt="Université Paris Descartes Logo"
                       width={500}
                       height={500}
@@ -306,7 +323,7 @@ export default function Home() {
               data-twe-ripple-color="light">
               <span className="mx-auto [&>svg]:h-5 [&>svg]:w-5">
                 <Image
-                  src="/portfolio/images/email.svg" // Replace with your actual image filename
+                  src="/images/email.svg" // Replace with your actual image filename
                   alt="Email"
                   width={500}
                   height={500}
@@ -322,7 +339,7 @@ export default function Home() {
               data-twe-ripple-init
               data-twe-ripple-color="light">
               <Image
-                src="/portfolio/images/whatsapp.png"
+                src="/images/whatsapp.png"
                 alt="Whatsapp"
                 width={500}
                 height={500}

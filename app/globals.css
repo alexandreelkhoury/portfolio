@@ -93,9 +93,7 @@ ul {
 }
 
 main {
-  /* max-width: 800px; */
   margin: 0 auto;
-  /* padding: 8rem; */
   overflow-x: hidden;
   background: white;
   border-radius: 8px;
@@ -137,4 +135,3 @@ footer {
   outline: none; /* focus:outline-none */
   box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.15); /* focus:shadow-dark-2 */
 }
-
