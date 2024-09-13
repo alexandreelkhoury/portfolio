@@ -140,9 +140,9 @@ export default function Home() {
                     <h4 className="text-2xl font-bold text-gray-800">Metav.rs</h4>
                     <p className="text-lg italic text-gray-600">Back-End Blockchain Developer (12/2022 - 09/2024)</p>
                   </div>
-                  <div className="absolute mt-2 right-0">
+                  <div className="absolute mt-2 right-5">
                     <p className="text-md italic text-gray-600">Paris, Station F</p>
-                    <p className="text-md italic text-gray-600">Incubated at LVMH</p>
+                    <p className="text-md italic text-gray-600">Incubated at Binance Labs</p>
                   </div>
                 </div>
                 <div className="mt-4 pl-14">
@@ -174,7 +174,7 @@ export default function Home() {
                     <h4 className="text-2xl font-bold text-gray-800">Ambrosia</h4>
                     <p className="text-lg italic text-gray-600">Back-End Developer (09/2022 - 11/2022)</p>
                   </div>
-                  <div className="absolute mt-2 right-0">
+                  <div className="absolute mt-2 right-20">
                     <p className="text-md italic text-gray-600">Paris, Station F</p>
                     <p className="text-md italic text-gray-600">Incubated at LVMH</p>
                   </div>
