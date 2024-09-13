@@ -158,7 +158,7 @@ export default function Home() {
               </div>
 
               <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                <div className="flex items-center">
+                <div className="flex items-center relative">
                   <a href="https://ambrosia.com" target="_blank" rel="noopener noreferrer">
                     <Image
                       src="/portfolio/images/ambrosia-logo.jpeg"
