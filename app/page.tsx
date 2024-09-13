@@ -143,6 +143,8 @@ export default function Home() {
                 </div>
                 <div className="mt-4 pl-14">
                   <ul className="list-disc list-inside text-gray-700">
+                    <li>Collaborated on blockchain projects for luxury brands such as Chanel, Farfetch, and Maje.</li>
+                    <li>Contributed to projects for other major brands, including Michelin and Westfield.</li>
                     <li>Operated and maintained an Ethereum RPC Node.</li>
                     <li>Led the development of Chainalyze, a project designed to perform blockchain analytics using the RPC node.</li>
                     <li>Developed smart contracts in Solidity implementing best practices to enhance security and efficiency.</li>
