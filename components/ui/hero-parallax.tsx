@@ -108,7 +108,7 @@ export const Header = () => {
         Alexandre El-Khoury
       </h1>
       <p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200">
-        Passionate and dedicated <strong>full stack developer</strong> with over 3 years of experience in creating both traditional web applications and <strong>decentralized applications</strong> across multiple blockchains.
+        Passionate and dedicated <strong>full stack developer</strong> with over 3 years of experience in creating both traditional <strong>web applications</strong> and <strong>decentralized applications</strong> across multiple <strong>blockchains</strong>.
         With a solid background in conventional web development technologies and a deep understanding of the blockchain ecosystem, I am well-equipped to build modern, secure, and scalable applications in both domains.
       </p>
     </div>

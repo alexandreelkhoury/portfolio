@@ -126,7 +126,7 @@ export default function Home() {
 
             <div className="grid gap-8">
               <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                <div className="flex items-center">
+                <div className="flex items-center relative">
                   <a href="https://metav.rs" target="_blank" rel="noopener noreferrer">
                     <Image
                       src="/images/logo-metav.rs.jpg"
@@ -138,7 +138,11 @@ export default function Home() {
                   </a>
                   <div>
                     <h4 className="text-2xl font-bold text-gray-800">Metav.rs</h4>
-                    <p className="text-lg italic text-gray-600">Fullstack Developer (12/2022 - Present)</p>
+                    <p className="text-lg italic text-gray-600">Back-End Blockchain Developer (12/2022 - 09/2024)</p>
+                  </div>
+                  <div className="absolute mt-2 right-0">
+                    <p className="text-md italic text-gray-600">Paris, Station F</p>
+                    <p className="text-md italic text-gray-600">Incubated at LVMH</p>
                   </div>
                 </div>
                 <div className="mt-4 pl-14">
@@ -156,7 +160,7 @@ export default function Home() {
               </div>
 
               <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                <div className="flex items-center">
+                <div className="flex items-center relative">
                   <a href="https://ambrosia.com" target="_blank" rel="noopener noreferrer">
                     <Image
                       src="/images/ambrosia-logo.jpeg"
@@ -169,6 +173,10 @@ export default function Home() {
                   <div>
                     <h4 className="text-2xl font-bold text-gray-800">Ambrosia</h4>
                     <p className="text-lg italic text-gray-600">Back-End Developer (09/2022 - 11/2022)</p>
+                  </div>
+                  <div className="absolute mt-2 right-0">
+                    <p className="text-md italic text-gray-600">Paris, Station F</p>
+                    <p className="text-md italic text-gray-600">Incubated at LVMH</p>
                   </div>
                 </div>
                 <div className="mt-4 pl-14">
