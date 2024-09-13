@@ -122,7 +122,7 @@ export default function Home() {
 
             <div className="grid gap-8">
               <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                <div className="flex items-center">
+                <div className="flex items-center relative">
                   <a href="https://metav.rs" target="_blank" rel="noopener noreferrer">
                     <Image
                       src="/portfolio/images/logo-metav.rs.jpg"
@@ -136,7 +136,7 @@ export default function Home() {
                     <h4 className="text-2xl font-bold text-gray-800">Metav.rs</h4>
                     <p className="text-lg italic text-gray-600">Back-End & Blockchain Developer (12/2022 - 09/2024)</p>
                   </div>
-                  <div className="mt-2 pl-14">
+                  <div className="absolute mt-2 right-20">
                     <p className="text-md italic text-gray-600">Paris, Station F</p>
                     <p className="text-md italic text-gray-600">Incubated at LVMH</p>
                   </div>
@@ -172,7 +172,7 @@ export default function Home() {
                     <h4 className="text-2xl font-bold text-gray-800">Ambrosia</h4>
                     <p className="text-lg italic text-gray-600">NodeJS Developer (09/2022 - 11/2022)</p>
                   </div>
-                  <div className="mt-2 pl-14">
+                  <div className="absolute mt-2 right-5">
                     <p className="text-md italic text-gray-600">Paris, Station F</p>
                     <p className="text-md italic text-gray-600">Incubated at Binance Labs</p>
                   </div>
