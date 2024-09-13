@@ -82,7 +82,7 @@ export default function Home() {
       thumbnail: "/portfolio/images/1.png",
     },
   ];
-  
+
   const handleDownload = async () => {
     try {
       const response = await fetch('https://olive-encouraging-gecko-886.mypinata.cloud/ipfs/QmTDw1mAWXWD9eLDXU7mLdswmepqScNj9pKHaDa5d4V7Q4?pinataGatewayToken=pWlwZletu2n2A8YlLeubjgrpC5zmwasURKNz3LaS-cKBhrBHYFSi2mMiZBoeha0j');
@@ -105,7 +105,7 @@ export default function Home() {
     <div>
       <main className="flex min-h-screen flex-col items-center justify-between">
         <div className="place-self-end pr-20 py-5">
-           <button className="download-cv-button" onClick={handleDownload}>Download CV</button>
+          <button className="download-cv-button" onClick={handleDownload}>Download CV</button>
         </div>
 
         <HeroParallax products={products} />
@@ -134,7 +134,11 @@ export default function Home() {
                   </a>
                   <div>
                     <h4 className="text-2xl font-bold text-gray-800">Metav.rs</h4>
-                    <p className="text-lg italic text-gray-600">Fullstack Developer (12/2022 - Present)</p>
+                    <p className="text-lg italic text-gray-600">Back-End & Blockchain Developer (12/2022 - 09/2024)</p>
+                  </div>
+                  <div className="mt-2 pl-14">
+                    <p className="text-md italic text-gray-600">Paris, Station F</p>
+                    <p className="text-md italic text-gray-600">Incubated at LVMH</p>
                   </div>
                 </div>
                 <div className="mt-4 pl-14">
@@ -142,7 +146,7 @@ export default function Home() {
                     <li>Operated and maintained an Ethereum RPC Node.</li>
                     <li>Led the development of Chainalyze, a project designed to perform blockchain analytics using the RPC node.</li>
                     <li>Developed smart contracts in Solidity implementing best practices to enhance security and efficiency.</li>
-                    <li>Integrated smart contracts on the front</li>
+                    <li>Integrated smart contracts on the front.</li>
                     <li>Maintained and optimized backend services.</li>
                     <li>Created API documentation in Clojure.</li>
                     <li>Conducted thorough code reviews.</li>
@@ -164,7 +168,11 @@ export default function Home() {
                   </a>
                   <div>
                     <h4 className="text-2xl font-bold text-gray-800">Ambrosia</h4>
-                    <p className="text-lg italic text-gray-600">Back-End Developer (09/2022 - 11/2022)</p>
+                    <p className="text-lg italic text-gray-600">NodeJS Developer (09/2022 - 11/2022)</p>
+                  </div>
+                  <div className="mt-2 pl-14">
+                    <p className="text-md italic text-gray-600">Paris, Station F</p>
+                    <p className="text-md italic text-gray-600">Incubated at Binance Labs</p>
                   </div>
                 </div>
                 <div className="mt-4 pl-14">
