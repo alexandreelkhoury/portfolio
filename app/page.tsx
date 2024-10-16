@@ -2,7 +2,6 @@
 'use client';
 import IconCloud from '../components/demos/motion/demo-icon-cloud';
 import { HeroParallax } from '../components/ui/hero-parallax';
-// import { Head } from 'next/document'
 import Image from 'next/image'
 
 export default function Home() {
@@ -106,13 +105,15 @@ export default function Home() {
   return (
 
     <div>
-      <main className="flex min-h-screen flex-col items-center justify-between">
-
-        <div className="place-self-end pr-20 py-5">
-          <button className="download-cv-button" onClick={handleDownload}>Download CV</button>
+      <main className="relative flex flex-col items-center justify-between min-h-screen">
+        <div className="absolute top-0 right-0 pr-5 py-5 md:pr-10 z-10">
+          <button className="download-cv-button" onClick={handleDownload}>
+            Download CV
+          </button>
         </div>
 
         <HeroParallax products={products} />
+
 
         <section className="w-full p-8 bg-[#E2E8F0]">
           <div className="flex justify-center">
@@ -121,11 +122,13 @@ export default function Home() {
         </section>
 
         <section className="w-full bg-gray-50">
-          <div className="p-12 rounded-lg mx-auto max-w-6xl">
-            <h3 className="text-3xl font-semibold text-center mb-10">Discover my journey</h3>
+          <div className="p-3 sm:p-3 md:p-8 lg:p-12 rounded-lg mx-auto max-w-6xl">
+            <h3 className="text-2xl sm:text-3xl font-semibold text-center mb-5 sm:mb-10">
+              Discover my journey
+            </h3>
 
-            <div className="grid gap-8">
-              <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+            <div className="grid gap-3 sm:gap-8">
+              <div className="bg-white p-4 sm:p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
                 <div className="flex items-center relative">
                   <a href="https://metav.rs" target="_blank" rel="noopener noreferrer">
                     <Image
@@ -133,23 +136,31 @@ export default function Home() {
                       alt="Metav.rs Logo"
                       width={500}
                       height={500}
-                      className="h-12 w-12 mr-4"
+                      className="h-10 w-10 sm:h-12 sm:w-12 mr-2 sm:mr-4"
                     />
                   </a>
                   <div>
-                    <h4 className="text-2xl font-bold text-gray-800">Metav.rs</h4>
-                    <p className="text-lg italic text-gray-600">Back-End Blockchain Developer (12/2022 - 09/2024)</p>
+                    <h4 className="text-lg sm:text-2xl font-bold text-gray-800">Metav.rs</h4>
+                    <p className="text-sm sm:text-lg italic text-gray-600">
+                      Back-End Blockchain Developer (12/2022 - 09/2024)
+                    </p>
                   </div>
-                  <div className="absolute mt-2 right-5">
-                    <p className="text-md italic text-gray-600">Paris, Station F</p>
-                    <p className="text-md italic text-gray-600">Incubated at Binance Labs</p>
+                  <div className="absolute -mt-8 sm:-mt-8 right-12">
+                    <p className="text-xs md:text-base italic text-gray-600">Paris, Station F</p>
+                    <p className="text-xs md:text-base italic text-gray-600">Incubated at LVMH</p>
                   </div>
                 </div>
-                <div className="mt-4 pl-14">
-                  <ul className="list-disc list-inside text-gray-700">
+                <div className="mt-2 sm:mt-4 pl-10 sm:pl-14">
+                  <ul className="list-disc md:list-inside text-gray-700 text-sm sm:text-base">
                     <li>Operated and maintained an Ethereum RPC Node using Geth.</li>
-                    <li>Led the development of Chainalyze, a project designed to perform blockchain analytics using the RPC node.</li>
-                    <li>Developed smart contracts in Solidity implementing best practices to enhance security and efficiency.</li>
+                    <li>
+                      Led the development of Chainalyze, a project designed to perform blockchain analytics
+                      using the RPC node.
+                    </li>
+                    <li>
+                      Developed smart contracts in Solidity implementing best practices to enhance security
+                      and efficiency.
+                    </li>
                     <li>Integrated smart contracts on the frontend of a minting page.</li>
                     <li>Maintained and updated a RESTful API and PostgreSQL database.</li>
                     <li>Created API documentation in Clojure.</li>
@@ -159,7 +170,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+              <div className="bg-white p-4 sm:p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
                 <div className="flex items-center relative">
                   <a href="https://ambrosia.com" target="_blank" rel="noopener noreferrer">
                     <Image
@@ -167,20 +178,20 @@ export default function Home() {
                       alt="Ambrosia Logo"
                       width={500}
                       height={500}
-                      className="h-12 w-12 mr-4"
+                      className="h-10 sm:h-12 w-10 sm:w-12 mr-2 sm:mr-4"
                     />
                   </a>
                   <div>
-                    <h4 className="text-2xl font-bold text-gray-800">Ambrosia</h4>
-                    <p className="text-lg italic text-gray-600">Back-End Developer (09/2022 - 11/2022)</p>
+                    <h4 className="text-lg sm:text-2xl font-bold text-gray-800">Ambrosia</h4>
+                    <p className="text-sm sm:text-lg italic text-gray-600">Back-End Developer (09/2022 - 11/2022)</p>
                   </div>
-                  <div className="absolute mt-2 right-20">
-                    <p className="text-md italic text-gray-600">Paris, Station F</p>
-                    <p className="text-md italic text-gray-600">Incubated at LVMH</p>
+                  <div className="absolute -mt-8 sm:-mt-8 right-2 ">
+                    <p className="text-xs italic md:text-base text-gray-600">Paris, Station F</p>
+                    <p className="text-xs italic md:text-base text-gray-600">Incubated at Binance Labs</p>
                   </div>
                 </div>
-                <div className="mt-4 pl-14">
-                  <ul className="list-disc list-inside text-gray-700">
+                <div className="mt-2 sm:mt-4 pl-8 sm:pl-14">
+                  <ul className="list-disc md:list-inside text-gray-700 text-sm sm:text-base">
                     <li>Developed scripts to retrieve data from EVM chains.</li>
                     <li>Automated funds transfer from clients to DeFi protocols.</li>
                     <li>Maintained and improved the API using NestJS and MongoDB.</li>
@@ -189,7 +200,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+              <div className="bg-white p-4 sm:p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
                 <div className="flex items-center">
                   <a href="https://chain.link/" target="_blank" rel="noopener noreferrer">
                     <Image
@@ -197,17 +208,21 @@ export default function Home() {
                       alt="CCIP Bootcamp Logo"
                       width={100}
                       height={100}
-                      className="h-8 w-8 mr-4"
+                      className="h-6 sm:h-8 w-6 sm:w-8 mr-2 sm:mr-4 mr-3"
                     />
                   </a>
                   <div>
-                    <p className="text-xl font-semibold text-gray-800">Chainlink CCIP (Cross-Chain Interoperability Protocol) Bootcamp</p>
-                    <p className="text-lg italic text-gray-600">2024</p>
+                    <p className="text-md sm:text-xl font-semibold text-gray-800">
+                      Chainlink CCIP&nbsp;
+                      <span className="hidden lg:inline">(Cross-Chain Interoperability Protocol)</span>
+                      &nbsp;Bootcamp
+                    </p>
+                    <p className="text-sm sm:text-lg italic text-gray-600">2024</p>
                   </div>
                 </div>
               </div>
 
-              <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+              <div className="bg-white p-4 sm:p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
                 <div className="flex items-center">
                   <a href="https://www.xrpl-commons.org/" target="_blank" rel="noopener noreferrer">
                     <Image
@@ -215,17 +230,17 @@ export default function Home() {
                       alt="XRP Ledger Bootcamp Logo"
                       width={500}
                       height={500}
-                      className="h-7 w-9 mr-4"
+                      className="h-6 sm:h-7 w-7 sm:w-9 mr-2 sm:mr-4 mr-3"
                     />
                   </a>
                   <div>
-                    <p className="text-xl font-semibold text-gray-800">XRP Ledger Bootcamp</p>
-                    <p className="text-lg italic text-gray-600">2024</p>
+                    <p className="text-md sm:text-xl font-semibold text-gray-800">XRP Ledger Bootcamp</p>
+                    <p className="text-sm sm:text-lg italic text-gray-600">2024</p>
                   </div>
                 </div>
               </div>
 
-              <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+              <div className="bg-white p-4 sm:p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
                 <div className="flex items-center">
                   <a href="https://www.esgi.fr/" target="_blank" rel="noopener noreferrer">
                     <Image
@@ -233,17 +248,17 @@ export default function Home() {
                       alt="ESGI Logo"
                       width={500}
                       height={500}
-                      className="h-8 w-8 mr-4"
+                      className="h-6 sm:h-8 w-6 sm:w-8 mr-2 sm:mr-4 mr-3"
                     />
                   </a>
                   <div>
-                    <p className="text-xl font-semibold text-gray-800">Master Blockchain Engineer, ESGI</p>
-                    <p className="text-lg italic text-gray-600">2022 - 2024</p>
+                    <p className="text-md sm:text-xl font-semibold text-gray-800">Master Blockchain Engineer, ESGI</p>
+                    <p className="text-sm sm:text-lg italic text-gray-600">2022 - 2024</p>
                   </div>
                 </div>
               </div>
 
-              <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+              <div className="bg-white p-4 sm:p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
                 <div className="flex items-center">
                   <a href="https://www.alyra.fr/formations/decouvrir-la-formation-developpeur-blockchain-alyra" target="_blank" rel="noopener noreferrer">
                     <Image
@@ -251,17 +266,17 @@ export default function Home() {
                       alt="Alyra l'école Blockchain Logo"
                       width={500}
                       height={500}
-                      className="h-8 w-8 mr-4"
+                      className="h-6 sm:h-8 w-6 sm:w-8 mr-2 sm:mr-4 mr-7"
                     />
                   </a>
                   <div>
-                    <p className="text-xl font-semibold text-gray-800">3 Months Blockchain Crash Course, Alyra l&apos;école Blockchain</p>
-                    <p className="text-lg italic text-gray-600">2022</p>
+                    <p className="text-md sm:text-xl font-semibold text-gray-800">3 Months Blockchain Crash Course, Alyra l&apos;école Blockchain</p>
+                    <p className="text-sm sm:text-lg italic text-gray-600">2022</p>
                   </div>
                 </div>
               </div>
 
-              <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+              <div className="bg-white p-4 sm:p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
                 <div className="flex items-center">
                   <a href="https://u-paris.fr/" target="_blank" rel="noopener noreferrer">
                     <Image
@@ -269,12 +284,12 @@ export default function Home() {
                       alt="Université Paris Descartes Logo"
                       width={500}
                       height={500}
-                      className="h-8 w-8 mr-4"
+                      className="h-6 sm:h-8 w-6 sm:w-8 mr-2 sm:mr-4 mr-6"
                     />
                   </a>
                   <div>
-                    <p className="text-xl font-semibold text-gray-800">Bachelor in Mathematics, Université Paris Descartes</p>
-                    <p className="text-lg italic text-gray-600">2018 - 2021</p>
+                    <p className="text-md sm:text-xl font-semibold text-gray-800">Bachelor in Mathematics, Université Paris Descartes</p>
+                    <p className="text-sm sm:text-lg italic text-gray-600">2018 - 2021</p>
                   </div>
                 </div>
               </div>
@@ -283,9 +298,9 @@ export default function Home() {
         </section>
       </main>
 
-      <footer className="w-full pb-4 h-85 p-0 m-0 flex flex-col items-center justify-between bg-[#E2E8F0]">
-        <div className="container px-6 pt-6">
-          <div className="mb-6 flex justify-center space-x-2">
+      <footer className="w-full pb-4 lg:h-85 flex flex-col items-center justify-between bg-[#E2E8F0]">
+        <div className="container pt-4 md:pt-6">
+          <div className="mb-2 md:mb-6 flex justify-center space-x-3">
             <a
               href="https://www.linkedin.com/in/alexandre-khoury/"
               type="button"
